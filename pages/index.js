@@ -1,11 +1,10 @@
-import { Heading, VStack } from '@chakra-ui/react';
+import PageContainer from 'components/PageContainer';
+import Actions from 'components/Actions';
 
 export default function Home() {
   return (
-    <VStack justify="center" h="100vh">
-      <Heading as="h1" size="2xl">
-        Next Chakra Starter
-      </Heading>
-    </VStack>
+    <PageContainer title="Next Chakra Starter">
+      <Actions switchName="Second Page" />
+    </PageContainer>
   );
 }
