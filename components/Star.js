@@ -7,6 +7,7 @@ const Star = () => {
   return (
     <Link href="https://github.com/hendraaagil/next-chakra-starter" isExternal>
       <HStack
+        zIndex="docked"
         pos="fixed"
         py={3}
         px={4}
