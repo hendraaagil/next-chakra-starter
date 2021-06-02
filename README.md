@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-1. Clone this project using `create-next-app` <br />
+1. Clone this project <br />
 
    ```bash
     git clone https://github.com/hendraaagil/next-chakra-starter "next-chakra-project"
