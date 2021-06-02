@@ -3,7 +3,7 @@ import Actions from 'components/Actions';
 
 export default function Home() {
   return (
-    <PageContainer title="Next Chakra Starter">
+    <PageContainer title="Next.js Chakra Starter">
       <Actions switchName="Second Page" />
     </PageContainer>
   );

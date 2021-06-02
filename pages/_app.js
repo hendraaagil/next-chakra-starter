@@ -5,6 +5,7 @@ import { DefaultSeo } from 'next-seo';
 import { Box, ChakraProvider } from '@chakra-ui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 
+import { SEO } from 'next-seo.config';
 import { theme } from 'styles/theme';
 import { GlobalStyle } from 'styles/styles';
 import 'styles/css/nprogress.css';
@@ -20,6 +21,8 @@ const MotionBox = motion(Box);
 function MyApp({ Component, pageProps, router }) {
   return (
     <ChakraProvider resetCSS theme={theme}>
+      <DefaultSeo {...SEO} />
+
       <GlobalStyle>
         <AnimatePresence exitBeforeEnter>
           <MotionBox
