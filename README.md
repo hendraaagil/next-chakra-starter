@@ -6,19 +6,27 @@
 
 1. Clone this project using `create-next-app` <br />
 
+   ```bash
+    git clone https://github.com/hendraaagil/next-chakra-starter "next-chakra-project"
+   ```
+
+2. Install all dependencies <br />
+
    Recommended using yarn
 
    ```bash
-    yarn create next-app https://github.com/hendraaagil/next-chakra-starter next-chakra-project
+    cd next-chakra-starter
+    yarn
    ```
 
    or using npm
 
    ```bash
-    npx create-next-app https://github.com/hendraaagil/next-chakra-starter next-chakra-project
+    cd next-chakra-starter
+    npm install
    ```
 
-2. For customizing options please see [Features](#Features) section.
+3. For customizing options please see [Features](#Features) section.
 
 ## Features
 
