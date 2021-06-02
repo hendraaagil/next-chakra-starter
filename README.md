@@ -28,6 +28,8 @@
 
 3. For customizing options please see [Features](#Features) section.
 
+Or you can click "Use this template" button above.
+
 ## Features
 
 There is some pre-installed packages in this template:
