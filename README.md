@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-1. Clone this project <br />
+1. Clone this template, change "next-chakra-project" with your own project name <br />
 
    ```bash
     git clone https://github.com/hendraaagil/next-chakra-starter "next-chakra-project"
@@ -15,14 +15,14 @@
    Recommended using yarn
 
    ```bash
-    cd next-chakra-starter
+    cd next-chakra-project
     yarn
    ```
 
    or using npm
 
    ```bash
-    cd next-chakra-starter
+    cd next-chakra-project
     npm install
    ```
 
@@ -48,8 +48,9 @@ Some features in this template:
 3. Page transition <br />
    If you want to custom the page transition go to `pages/_app.js` in `MotionBox` component.
 4. Next SEO config file <br />
-   You can custom `meta`, favicon, open graph, etc. in `next-seo.config.js`
-5. You also can customize nprogress in `styles/css/nprogress.css`
+   You can custom `meta`, favicon, open graph, etc. in `next-seo.config.js`.
+5. You also can customize nprogress in `styles/css/nprogress.css`.
+6. Using absolute path based on `jsconfig.json` file. 
 
 ## Documentation
 
