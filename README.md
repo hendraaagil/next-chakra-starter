@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Chakra UI Starter Template
+
+![Open Graph](https://og-image.vercel.app/**Next.js%20Chakra**%20Starter.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg&images=https%3A%2F%2Fraw.githubusercontent.com%2Fchakra-ui%2Fchakra-ui%2Fbf775929a6d73a3aa69e44d5d38542449871475c%2Flogo%2Flogomark-colored.svg)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this project using `create-next-app` <br />
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+   Recommended using yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+    yarn create next-app https://github.com/hendraaagil/next-chakra-starter next-chakra-project
+   ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+   or using npm
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+   ```bash
+    npx create-next-app https://github.com/hendraaagil/next-chakra-starter next-chakra-project
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. For customizing options please see [Features](#Features) section.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+There is some pre-installed packages in this template:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [next-seo](https://github.com/garmeeh/next-seo)
+- [nprogress](https://github.com/rstacruz/nprogress)
+- [react-icons](https://github.com/react-icons/react-icons)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Some features in this template:
 
-## Deploy on Vercel
+1. Custom breakpoints & font <br />
+   You can edit breakpoints & font in `styles/theme.js`. <br />
+   Import your preferred font in `pages/_document.js` to apply [automatic webfont optimization](https://nextjs.org/blog/next-10-2#automatic-webfont-optimization).
+2. Global style <br/>
+   You can edit global style in `styles/styles.js`.
+3. Page transition <br />
+   If you want to custom the page transition go to `pages/_app.js` in `MotionBox` component.
+4. Next SEO config file <br />
+   You can custom `meta`, favicon, open graph, etc. in `next-seo.config.js`
+5. You also can customize nprogress in `styles/css/nprogress.css`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For more guides, please read:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Chakra UI Documentation](https://chakra-ui.com/)
+
+## License
+
+This project is under [MIT License](LICENSE)
+
+## Credits
+
+&copy; 2021 Created by [Hendra Agil](https://github.com/hendraaagil)
