@@ -3,7 +3,7 @@ const description =
   'An opinionated starter project with Next.js and Chakra UI. Created by hendraaagil';
 const url = 'https://nextjs-chakra-hendraaagil.vercel.app';
 
-export const SEO = {
+const SEO = {
   title,
   description,
   canonical: url,
@@ -28,3 +28,5 @@ export const SEO = {
   },
   additionalLinkTags: [{ rel: 'icon', href: '/favicon.ico' }],
 };
+
+export default SEO;

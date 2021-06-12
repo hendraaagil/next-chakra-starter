@@ -9,10 +9,12 @@ const breakpoints = createBreakpoints({
   '2xl': '1440px',
 });
 
-export const theme = extendTheme({
+const theme = extendTheme({
   fonts: {
     heading: `'Inter', ${defaultTheme.fonts.heading}`,
     body: `'Inter', ${defaultTheme.fonts.body}`,
   },
   breakpoints,
 });
+
+export default theme;
