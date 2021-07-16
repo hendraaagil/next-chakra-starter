@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-1. Clone this template, change "next-chakra-project" with your own project name <br />
+1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "next-chakra-project" with your own project name <br />
 
    ```bash
-    git clone https://github.com/hendraaagil/next-chakra-starter "next-chakra-project"
+    npx degit hendraaagil/next-chakra-starter "next-chakra-project"
    ```
 
 2. Install all dependencies <br />
@@ -26,9 +26,9 @@
     npm install
    ```
 
-3. For customizing options please see [Features](#Features) section.
+3. For customizing options please see [Features](#features) section.
 
-Or you can click "Use this template" button above.
+4. Or you can click "Use this template" button above.
 
 ## Features
 
@@ -50,7 +50,7 @@ Some features in this template:
 4. Next SEO config file <br />
    You can custom `meta`, favicon, open graph, etc. in `next-seo.config.js`.
 5. You also can customize nprogress in `styles/css/nprogress.css`.
-6. Using absolute path based on `jsconfig.json` file. 
+6. Using absolute path based on `jsconfig.json` file.
 
 ## Documentation
 
