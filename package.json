@@ -1,13 +1,15 @@
 {
   "name": "next-chakra-starter",
+  "description": "An opinionated simple starter / template project with Next.js and Chakra UI.",
   "version": "1.0.0",
+  "repository": "git@github.com:hendraaagil/next-chakra-starter.git",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ./components/** ./pages/** -c .eslintrc.js --ext js,jsx",
-    "lint-fix": "eslint ./components/** ./pages/** -c .eslintrc.js --fix --ext js,jsx"
+    "lint": "eslint ./src/components/** ./src/pages/** -c .eslintrc.js --ext js,jsx",
+    "lint-fix": "eslint ./src/components/** ./src/pages/** -c .eslintrc.js --fix --ext js,jsx"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.6",
