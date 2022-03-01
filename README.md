@@ -65,4 +65,4 @@ This project is under [MIT License](LICENSE)
 
 ## Credits
 
-&copy; 2021 Created by [Hendra Agil](https://github.com/hendraaagil)
+Created by [Hendra Agil](https://github.com/hendraaagil)
