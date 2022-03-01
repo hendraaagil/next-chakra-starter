@@ -28,6 +28,10 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/function-component-definition': [
+      2,
+      { namedComponents: 'arrow-function' },
+    ],
     'react/jsx-props-no-spreading': 'off',
     '@next/next/no-page-custom-font': 'off',
     'no-plusplus': 'off',
