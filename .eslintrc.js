@@ -25,15 +25,17 @@ module.exports = {
   extends: ['plugin:react/recommended', 'next', 'airbnb', 'prettier'],
   plugins: ['react', 'prettier'],
   rules: {
-    'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off',
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'no-plusplus': 'off',
     'react/function-component-definition': [
       2,
       { namedComponents: 'arrow-function' },
     ],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
     '@next/next/no-page-custom-font': 'off',
-    'no-plusplus': 'off',
   },
 };
